@@ -136,6 +136,47 @@ nav.navbar {
       border: none;
 }
 /* end pricing table */
+/* Statistics */
+.statistics {
+      background-image: url('../img/statistics.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+      height: 100%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+}
+
+.statistics:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0,0,0,0.7);
+      z-index: 1;
+}
+
+.statistics .container {
+      position: relative;
+      z-index: 2;
+}
+
+.statistics i {
+      position: relative;
+      color: #fff;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      top: 1.5rem;
+}
+
+.statistics h3, .statistics p {
+      color: #fff;
+}
+/* End Stats */
 
 /* Media queries */
 @media (min-width: 992px) {
