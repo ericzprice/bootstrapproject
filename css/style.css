@@ -105,6 +105,20 @@ nav.navbar {
 
 }
 
+/* Our Services */
+.services i {
+      color: white;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      margin-bottom: 30px;
+}
+
+.services {
+      background-color: #e9ecef;
+}
+
+/* end Our Services */
 
 
 
