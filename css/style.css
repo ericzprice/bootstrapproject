@@ -209,6 +209,13 @@ nav.navbar {
 }
 /* end contact us */
 
+/* Footer */
+.footer-icon {
+      color: rgba(0,0,0,1);
+}
+.footer-icon:hover {
+      color: rgba(0,0,0,0.5);
+}
 
 /* Media queries */
 @media (min-width: 992px) {
