@@ -203,6 +203,11 @@ nav.navbar {
 }
 /* end latest posts */
 
+/* contact us */
+.contact {
+      padding: 100px 0;
+}
+/* end contact us */
 
 
 /* Media queries */
